@@ -1,0 +1,23 @@
+{
+  "name": "registro-de-pagos",
+  "version": "0.0.0",
+  "authors": [
+    "ydpire <davidpire29@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "repuestosmt.com.ve",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "sass-bootstrap": "~3.0.2"
+  }
+}
