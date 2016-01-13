@@ -1,0 +1,52 @@
+* {
+    outline: none;
+}
+
+body {margin:0; padding:0; font-size:15px; background:url(../imagenes/bg.png) fixed; -webkit-font-smoothing: antialiased; font-smoothing: antialiased;}
+a img {border:0;}
+.clear {clear:both; height:0;}
+form {margin:0; padding:0;}
+
+.pagina {width:900px; margin:0px auto 15px auto; background-color:#fff;}
+.top {width:900px; border:0;}
+.titulo {width:500px; margin:0 auto; height:80px;}
+.cuerpo {border-left:1px solid #969696; border-bottom:1px solid #969696; border-right:1px solid #969696;}
+.formulario {width:800px; padding:30px 50px 20px 50px;}
+.formulario .subtitulo {display:block; float:right; height:30px; padding:0 0 0 30px; line-height:30px; color:#fff; font-size:17px; font-family:Tahoma; margin-bottom:10px;}
+.formulario .subtitulo span {padding-right:30px; display:block; height:30px;}
+.formulario label {color:#000; display:block; float:left; width:300px; text-align:right; line-height:25px;}
+.formulario input, .formulario select, .formulario textarea {float:left; height:33px; width:250px; display:block; padding:0 5px; margin:0 0 0 15px; border:1px solid #233846; background-color:#fff; font-size:15px; color:#000; line-height:25px;}
+.formulario select {height:25px; width:262px; padding:0 0 0 5px;}
+.formulario textarea {height:80px; font-family:Arial; max-width:250px; min-width:250px; max-height:80px; min-height:80px;}
+.formulario input:hover, .formulario input:focus, .formulario select:hover, .formulario select:focus,  .formulario textarea:hover, .formulario textarea:focus {background-color:#eee}
+.formulario .fecha {width:100px; text-align:right;}
+.formulario .moneda {width:100px; text-align:right;}
+.formulario .tam1 {width:100px;}
+.formulario .opt {font-style:italic; float:left; display:block; height:25px; line-height:25px; color:#000; margin-left:5px;}
+.formulario form .clear {height:10px;}
+.formulario form .separador {height:40px;}
+.formulario .submit {width:auto; height:auto; padding:5px 7px; border-radius:5px; color:#fff; background-color:#3A3636; float:right; margin-right:220px;}
+.formulario .submit:hover {background-color:#3A3636;}
+.formulario .submit:focus {background-color:#3A3636;}
+.formulario .no-disponible {border:1px solid #999; color:#999;}
+.formulario .infex {float:right; font-size:11px; display:block; width:217px; line-height:13px; /*color:#8C9393;*/ color:#000;}
+.formulario input.fondo-azul, .formulario select.fondo-azul, .formulario textarea.fondo-azul {background-color:#123456; color:#fff;}
+.formulario #archivo {position:absolute; z-index:3; margin:0; width:25px; height:25px; overflow:hidden; cursor:pointer; clip:rect(0px 25px 25px 0px); clip:rect(0px,25px,25px,0px); padding:0; opacity:0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0);}
+.formulario #c_archivo {position:relative; z-index:2; float:left; height: 25px; width: 261px; display: block;  margin: 0 0 0 15px; background-color: #fff; font-size: 15px; color: #233846; line-height: 25px;}
+.formulario #c_archivo .btn {display:block; float:right; height:25px; margin:0; padding:0; width:25px; position:relative;}
+.formulario #c_archivo .btn img {display:block; height:25px; width:25px; position:absolute; z-index:2;}
+.formulario #c_archivo .txtfile {float:left; height:23px; width:229px; display:block; border:1px solid #233846; background-color:#fff; overflow:hidden;}
+.formulario .cedsel {float:left; width:45px;}
+.formulario .cedtxt {float:left; width:200px; margin-left:5px;}
+.formulario #direccionencomienda {min-height:48px; height:48px; max-height:48px}
+.formulario #cod_destinatario_tel, .formulario #cod_destinatario_cel {width:72px;}
+.formulario #destinatario_tel, .formulario #destinatario_cel {width:173px; margin-left:5px;}
+.formulario .txtpost {color:#000; display:block; float:left; line-height:25px; margin-left:3px;}
+.formulario .campo-falso {float:left; height:23px; width:250px; display:block; border:1px solid #233846; background-color:#fff; overflow:hidden; margin:0 0 0 15px; padding:0 5px; line-height:23px; color:#999; border:1px solid #999;}
+.pie {padding:5px 30px 30px 30px; text-align:center;}
+.pie .center {display:block; margin:0 auto; text-align:center;}
+#ui-datepicker-div {font-size:13px; z-index:2 !important;}
+#absoluto {position:fixed; display:none; width:100%; height:100%; background:url(../imagenes/capa-bg.png); z-index:1000;}
+#archivo_target {width:0px;height:0px;border-width:0px;}
+#capa-proteccion {position:fixed; background-image:url(../imagenes/bg-proteccion.png); width:100%; height:100%; top:0; left:0; z-index:100; display:none;}
+#capa-proteccion .msj {background-color:#fff; width:400px; height:60px; text-align:center; line-height:60px; position:fixed; top:50%; left:50%; margin-left:-200px; margin-top:-30px; border:1px solid #000;}
