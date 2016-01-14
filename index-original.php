@@ -30,18 +30,7 @@ include("base.php");
      	<div id="absoluto"></div>
      	<div class="pagina">
      		<div class="top">
-     			<table id="Tabla_01" width="900" height="500" border="0" cellpadding="0" cellspacing="0" align="center">
-     				<tbody>
-     				<tr>
-     					<td colspan="4">
-     						<img src="imagenes/video-header.gif"></td>
-     					</tr>
-     					<tr>
-     						<td colspan="4" >
-     							<img src="imagenes/plantilla-carro.jpg"></td>
-     						</tr>
-     				</tbody>
-     			</table>
+
      		</div>
      				<div class="cuerpo">
      					<div class="titulo">

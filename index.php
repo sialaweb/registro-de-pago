@@ -5,11 +5,18 @@ include("base.php");
 <html>
    <head>
       <meta charset="utf-8">
-      <title>Registro de Pagos</title>
+      <title><?php echo $empNombre; ?> - Registro de Pagos</title>
+      <meta http-equiv="content-type" content="text/html;charset=utf-8" />
       <!-- styles -->
       <link rel="stylesheet" href="css/style.css">
+
+      <!-- scripts -->
+      <script type="text/javascript" src="js/jquerybase.js"></script>
+     	<script type="text/javascript" src="js/supervalidacion.jquery.js"></script>
+     	<script type="text/javascript" src="js/cutefocus.jquery.js"></script>
    </head>
    <body>
+      <div id="absoluto"></div>
 
       <!-- title -->
       <h2 class="title">Registro de pagos</h2>
@@ -128,8 +135,12 @@ include("base.php");
          ?>
       </select>
 		<textarea name="direccionencomienda" id="direccionencomienda" class="no-disponible tencomienda st-tentrega" spval="*" spval-msj="La dirección de la sucursal es un campo obligatorio" placeholder="direccion de envío o de sucursal (también puede agregar detalles extras)"></textarea>
-		<input type="button" name="previous" class="previous action-button" value="Anterior" />
-		<input type="submit" name="submit" class="submit action-button" value="Enviar" />
+
+      <!-- BOTON ENVIAR -->
+
+		   <input type="button" name="previous" class="previous action-button" value="Anterior" />
+		   <input type="submit" name="submit" class="submit action-button" value="Enviar"/>
+
 	</fieldset>
 </form>
 
@@ -440,7 +451,7 @@ if (regla.match(/int/)){
 }
 });
 
-</script> 
+</script>
 
       <script src="http://thecodeplayer.com/uploads/js/jquery-1.9.1.min.js" type="text/javascript"></script>
 <script src="http://thecodeplayer.com/uploads/js/jquery-1.9.1.min.js" type="text/javascript"></script>
